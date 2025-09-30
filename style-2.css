@@ -1,0 +1,78 @@
+
+/* styling page title */
+h1{
+  text-align: center;
+  background-color: hsl(25, 75%, 50%);
+  
+}
+
+h2{
+  background-color: #F8D082;
+  margin: none;
+}
+
+/* changing font style and size */
+body{
+
+  font-style: verdana;
+  font-size: 1.3em;
+}
+
+/* styling banner */
+/* changes width to 100%, auto extends header */
+
+header img{
+  width: 100%;
+  height: auto;
+
+}
+
+/* stylizing main content */
+main{
+  margin-left: 20px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+
+
+
+
+
+
+/* styling nav bar container */
+.navbar ul{
+  list-style-type: none;
+  background-color: hsl(0, 2%, 30%);
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+/* styling nav bar contents */
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+/* adding color change on hover */
+.navbar a:hover{
+  background-color: hsl(0, 2%, 20%);
+}
+
+.navbar li{
+  float: left;
+}
+
+
+/* styling footer */
+.footer{
+  margin-left: 20px;
+  text-align: center;
+  background-color: hsl(25, 75%, 50%);
+
+}
